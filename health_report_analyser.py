@@ -8,7 +8,7 @@ from pydantic import BaseModel
 import enum
 
 # ================= CONFIG =================
-API_KEY = "AIzaSyAgJnWtsd2s8qurRtE-QNOSxKbIMLxLuZU"   # 🔴 must have quota/billing
+API_KEY = "INSERT API key"   # 🔴 must have quota/billing
 MODEL_NAME = "gemini-3-flash-preview"  # safer than 2.0
 OUTPUT_FILE = "medical_report.json"
 
