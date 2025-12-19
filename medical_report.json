@@ -1,0 +1,68 @@
+{
+  "report_type": "CLINICAL_NOTE",
+  "patient_name": "Michael Johnson",
+  "date": "2024-09-04",
+  "lab_results": [
+    {
+      "test_name": "Electrocardiogram (ECG)",
+      "value": "Normal sinus rhythm; no signs of ischemia or arrhythmia",
+      "unit": null,
+      "is_abnormal": false
+    },
+    {
+      "test_name": "Cardiac enzymes (troponin, CK-MB)",
+      "value": "within normal limits",
+      "unit": null,
+      "is_abnormal": false
+    },
+    {
+      "test_name": "Thyroid function tests",
+      "value": "normal",
+      "unit": null,
+      "is_abnormal": false
+    },
+    {
+      "test_name": "Holter Monitor (24-hour monitoring)",
+      "value": "No significant arrhythmias; occasional premature ventricular contractions (PVCs)",
+      "unit": null,
+      "is_abnormal": false
+    },
+    {
+      "test_name": "Echocardiogram (Ejection Fraction)",
+      "value": "60",
+      "unit": "%",
+      "is_abnormal": false
+    },
+    {
+      "test_name": "Blood pressure",
+      "value": "122/78",
+      "unit": "mmHg",
+      "is_abnormal": false
+    },
+    {
+      "test_name": "Heart rate",
+      "value": "82",
+      "unit": "bpm",
+      "is_abnormal": false
+    },
+    {
+      "test_name": "BMI",
+      "value": "23.4",
+      "unit": null,
+      "is_abnormal": false
+    }
+  ],
+  "medications": [
+    {
+      "name": "Lorazepam",
+      "dosage": "0.5 mg",
+      "frequency": "as needed for anxiety"
+    },
+    {
+      "name": "Omeprazole",
+      "dosage": "20 mg",
+      "frequency": "daily"
+    }
+  ],
+  "clinical_summary": "29-year-old male presenting with sudden episodes of intense chest pain, palpitations, and shortness of breath over three months, accompanied by a feeling of impending doom. Patient has a history of anxiety and GERD. Physical examination and extensive cardiac diagnostic testing (ECG, Holter, Echocardiogram, and cardiac enzymes) are all within normal limits."
+}
