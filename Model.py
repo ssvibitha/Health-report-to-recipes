@@ -543,7 +543,7 @@ components.html(
     """
     <script>
         const script = window.parent.document.createElement('script');
-        script.src = "http://136.113.33.13:3000/js/chatbot-widget.js";
+        script.src = "https://136.113.33.13:3443/js/chatbot-widget.js";
         script.async = true;
         script.onload = function() {
             console.log("Chatbot widget injected successfully");
