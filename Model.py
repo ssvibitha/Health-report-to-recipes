@@ -543,7 +543,7 @@ components.html(
     """
     <script>
         const script = window.parent.document.createElement('script');
-        script.src = "https://136.113.33.13:3443/js/chatbot-widget.js";
+        script.src = "https://helioschat.linkpc.net:3443/js/chatbot-widget.js";
         script.async = true;
         script.onload = function() {
             console.log("Chatbot widget injected successfully");
